@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'lightfont';
+    src: url(fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: 'boldfont';
+    src: url(fonts/Roboto-Bold.ttf);
+}
+
+@keyframes result {
+    from {
+        opacity: 0;
+        top: -70px;
+    }
+    to {
+        opacity: 1;
+        top: 0px;
+    }
+}
+
+body {
+    background-color: #476273;
+    margin: 0;
+}
+
+.form {
+    position: relative;
+    top: 30%;
+    left: 25%;
+    width: 50%;
+    background-color: slategray;
+    font-family: lightfont;
+    color: white;
+}
+
+.form-input {
+    
+}
+
+.cbtn {
+    transition-duration: 0.1s;
+    font-family: boldfont;
+    border-color: transparent;
+    background-color: skyblue;
+    color: white;
+    width: 100px;
+    height: 40px;
+}
+
+.cbtn:hover {
+    transition-duration: 0.1s;
+    background-color: cadetblue;
+}
