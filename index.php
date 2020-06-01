@@ -33,6 +33,8 @@
     <body>
         <a href="leaderboard.php"><button class="cbtn">Leaderboard</button></a>
         <a href="actions/logout.php"><button class="cbtn">Logout</button></a>
+        <br>
+        <img src="logo.png" width="30px">
         <center>
             <?php
                 if(isset($_GET["result"]))
